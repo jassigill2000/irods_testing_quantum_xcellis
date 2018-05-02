@@ -1,4 +1,4 @@
-To test Quantum's Xcellis Stornext Storage appliance as an iRODS resource:
+## Testing Quantum's Xcellis Stornext appliance as an iRODS resource
 
 1. Add a NAS share by creating either a SMB/CIFS or NFSv3 type share on your appliance.
 
