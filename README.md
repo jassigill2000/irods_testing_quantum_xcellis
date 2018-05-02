@@ -65,7 +65,7 @@ sudo mv /tmp/irods_testing_quantum_xcellis/test_quantum_xcellis_resource.py /var
 sudo chown irods:irods /var/lib/irods/scripts/irods/test/test_quantum_xcellis_resource.py
 ```
 
-6) Run the test file as the `irods` service account (will take ~10 minutes)
+6. Run the test file as the `irods` service account (will take ~10 minutes)
 
 ```
 sudo su - irods -c "python scripts/run_tests.py --run_specific_test test_quantum_xcellis_resource"
