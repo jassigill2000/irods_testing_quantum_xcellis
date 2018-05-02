@@ -44,7 +44,7 @@ To test Quantum's Xcellis Stornext Storage appliance as an iRODS resource:
     \\<ipaddress>\test1 /mnt/smb cifs  username=<userid>,password=<password>,noauto,rw,dir_mode=0777,file_mode=0666  0 0
     ```
 
-    For the nfs mount:
+    For the NFSv3 mount:
     ```
     <ipaddress>:/stornext/snfs1/test2 /mnt/nfs  nfs    defaults 0 0
     ```
